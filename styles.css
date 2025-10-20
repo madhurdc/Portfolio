@@ -1,0 +1,21 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+.intro a i{
+  display: inline-block;
+  transition: transform .1s;
+}
+.intro a:hover i{
+  transform: scale(1.2);
+}
+.card a {
+  color: #00eeff; /* normal color */
+  transition: color 0.1s ease; /* smooth transition */
+}
+
+.card a:hover {
+  color: #ffffff; /* color when hovered */
+}
+
